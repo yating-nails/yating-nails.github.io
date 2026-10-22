@@ -1,5 +1,19 @@
 # 雅婷美甲足體｜最新交接狀態
 
+## W04｜品牌介紹頁五張圖片與版面
+
+更新日期：2026-10-22
+
+- 狀態：已部署並驗證。品牌介紹頁：https://yating-nails.github.io/about/。
+- GitHub Repository：yating-nails/yating-nails.github.io。
+- W04 網站 commit：`71c3bb451f95375438603b2f793f3292ebabdbe7`。GitHub Actions Run #8 成功：https://github.com/yating-nails/yating-nails.github.io/actions/runs/39739019955。
+- 五張指定 AI 美容情境 PNG 均可解碼、保留於 `web/`；五張 WebP 已上線至 `web/assets/images/photos/`，正式站全部 HTTP 200 且瀏覽器解碼成功。
+- ABOUT YATING 右圖、頁首大圖及 OUR SERVICES 圖片完成。因原三張服務卡沒有手部修甲項目，新增連至既有手部修甲服務的第一張卡；原有全身按摩、足底加肩頸及刮痧連結均保留。詳見 `docs/W04_ABOUT_VISUAL_REPORT.md`。
+- 標題下方新增低對比原創 SVG 甲面弧線。1440／768／390 px 正式站均無水平溢出；390 px 手機漢堡選單展開與 Escape 收合正常。
+- About 頁 Title、Description、Canonical、OG/Twitter、JSON-LD、Breadcrumb、H1、正文及聯絡資訊均保持原樣。全站其他 21 個頁面、13 篇服務文章、首頁／服務總覽圖片、Header／Footer、Logo、價格及 robots/sitemap 均未改。
+- `.w01_builder.py` 的 About 圖片映射與專屬樣式已同步，並建立本機回復副本 `.w01_builder.py.w04.bak`；本輪未執行產生器。
+- 下一步建議：後續依 `docs/YATING_IMAGE_PRODUCTION_PLAN.md` 補上仍待製作的服務文章主圖。
+
 ## W03｜服務總覽圖片、全站導覽與 Footer
 
 更新日期：2026-10-22

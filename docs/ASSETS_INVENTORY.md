@@ -50,9 +50,25 @@ WebP 合計 506,846 bytes；九張原始 JPG 合計 1,582,575 bytes。九張圖�
 
 - 14 張服務總覽圖片已正式部署；所有原始 JPG 保留於 `web/` 根目錄。
 - W02 WebP 重用 6 張：`03-service-hand-nail-care.webp`、`04-service-toe-nail-trim.webp`、`05-service-foot-skin-care.webp`、`06-service-nail-buffing.webp`、`07-service-single-color-gel.webp`、`08-service-gel-removal.webp`。
-- W03 新轉 WebP 8 張，路徑均在 `web/assets/images/photos/`：`01-services-hero.webp`、`08-service-body-massage.webp`、`09-service-foot-massage-shoulder.webp`、`10-service-gua-sha-relaxation.webp`、`11-service-cupping-relaxation.webp`、`12-service-body-exfoliation.webp`、`13-service-facial-cleansing-mask.webp`、`14-service-face-hair-brow.webp`。主圖 1600×900，其餘七張 1200×900；合計 762,830 bytes。
+- W03 新轉 WebP 8 張，路徑均在 `web/assets/images/photos/`：`01-services-hero.webp`、`08-service-body-massage.webp`、`09-service-foot-massage-shoulder.webp`、`10-service-gua-sha-relaxation.webp`、`11-service-cupping-relaxation.webp`、`12-service-body-exfoliation.webp`、`13-service-facial-cleansing-mask.webp`、`14-service-face-hair-brow.webp`。主圖 1600×900，其餘七張 1200×900；目前合計 770,620 bytes。W04 開工前 GitHub 上兩筆使用者圖片上傳更新了最後一張 WebP（45,614 bytes）及其來源 JPG；W04 已先同步並保留該遠端更新。
 - 六張使用者提供的 W03 JPG（檔名 02 至 07）因版位重用 W02 WebP，未另行轉檔，但原始檔仍保留。
 - 第 11 張是一般背部放鬆情境，不是拔罐操作；第 12 張為局部肌膚保養示意；第 13 張為美容保養用品氛圍。所有照片均未標為店內實景、顧客成果或療效對比。
 - 新增原創 Footer 線紋 `web/assets/brand/footer-ornament.svg`；CSS 與 JS 版本分別為 `w03-polish` 與 `w03-navigation`。
 - `.w01_builder.py` 未修改或執行；未來重建網站前，需同步此輪映射與共用視覺。
 - 詳細 14 張對應、ALT、尺寸、檔案大小、發布及 RWD 驗收見 `docs/W03_SERVICES_VISUAL_REPORT.md`。
+
+## W04 品牌介紹頁圖片與標題紋飾
+
+- 五張使用者提供的 AI 美容情境 PNG 均保留於 `web/` 根目錄；網站引用的 WebP 統一存於 `web/assets/images/photos/`。照片不代表店內實景、技師實際施工或顧客案例。
+- W04 WebP 總計 516,990 bytes；原始 PNG 總計 10,560,147 bytes。Hero 圖 1672×941、優先載入；其餘四張 1200×900、lazy loading；均有 width/height、`object-fit: cover` 與實際情境 ALT。
+
+| 原始 PNG | 用途 | 正式 WebP | 尺寸 | 大小 |
+|---|---|---|---:|---:|
+| `web/01-about-hero-spa-care.png` | 品牌介紹頁首大圖 | `web/assets/images/photos/01-about-hero-spa-care.webp` | 1672×941 | 108,276 bytes |
+| `web/02-about-yating-spa-scene.png` | ABOUT YATING 品牌氛圍圖 | `web/assets/images/photos/02-about-yating-spa-scene.webp` | 1200×900 | 104,788 bytes |
+| `web/03-about-our-services-nail-care.png` | 手部修甲服務卡 | `web/assets/images/photos/03-about-our-services-nail-care.webp` | 1200×900 | 96,260 bytes |
+| `web/04-about-our-services-foot-spa.png` | 腳底按摩與肩頸服務卡 | `web/assets/images/photos/04-about-our-services-foot-spa.webp` | 1200×900 | 104,490 bytes |
+| `web/05-about-our-services-neck-shoulder-relax.png` | 全身指壓與油壓服務卡 | `web/assets/images/photos/05-about-our-services-neck-shoulder-relax.webp` | 1200×900 | 103,176 bytes |
+
+- 原創裝飾檔：`web/assets/brand/about-title-ornament.svg`；空 ALT 並設為裝飾性隱藏，不增加螢幕閱讀器噪音。
+- W04 詳細圖片 ALT、連結映射、正式部署及三種螢幕驗收見 `docs/W04_ABOUT_VISUAL_REPORT.md`。
