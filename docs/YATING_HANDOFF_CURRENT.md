@@ -36,6 +36,7 @@
 - 最新網站發布 commit：03deb7ae9890d2b52542f581f844686cf651d2ea。
 - 最新 Actions：Deploy website to GitHub Pages Run #3（ID 39724302226），由 yating-nails 推送，結果 Success，18 秒。
 - 正式站驗收：sitemap 22 頁全部 HTTP 200；Title、Description、H1、Canonical、OG、Twitter 與 JSON-LD 各 22 頁完整，Title/Description 無重複，Title 均為 40–45 字元；JSON-LD 全部可解析。
+- 發布目錄安全檢查：web/ 共掃描 60 個檔案，未發現常見 GitHub／雲端憑證或私鑰格式。
 - robots.txt、sitemap.xml、Logo、favicon、manifest、OG 封面、CSS、JS 與插畫均 HTTP 200；不存在路徑回傳自訂 404 並標示 noindex。電話、LINE、Google Maps 連結正常。
 - RWD：本機曾以 1440、768、390 寬度驗收無水平溢出；正式站另檢視桌機與 375px 手機畫面。手機 LINE 按鈕已縮小並重新發布。
 - 圖像：24 張原創 SVG 插畫已發布；寫實美容圖片尚欠 21 張，來源與提示詞清單在 docs/YATING_IMAGE_PRODUCTION_PLAN.md。

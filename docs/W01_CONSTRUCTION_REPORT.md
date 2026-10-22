@@ -63,6 +63,7 @@
 - 22/22 正式 sitemap 網址 HTTP 200；22/22 頁有獨立 Title、Description、H1、Canonical、OG、Twitter、JSON-LD，無重複 Title/Description，Title 全在 40–45 字元，JSON-LD 可解析。
 - 正式 robots、sitemap、Logo、favicon、manifest、OG、CSS/JS、原創插畫 HTTP 200；未知網址回傳 404，自訂頁含 noindex。
 - 手機電話、LINE 與 Google Maps 連結 href 正確；正式 375px 手機畫面與桌機畫面已視覺檢查。1440、768、390 寬度的本機 RWD 驗收結果如上。
+- web/ 60 個發布檔案未發現常見 GitHub／雲端憑證或私鑰格式。
 - 法規敏感用語檢查無治療招攬文字，未使用虛構評價、資格或療效承諾。舊版單色光療 700/800 元價格仍待確認。
 - 圖片狀態：24 張原創 SVG；寫實 AI/攝影圖製作 0 張，尚欠 21 張。素材權利未確認的店家照片未公開。補圖需求、提示詞與 ALT 見 docs/YATING_IMAGE_PRODUCTION_PLAN.md。
 
