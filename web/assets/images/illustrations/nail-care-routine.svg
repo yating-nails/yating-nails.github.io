@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 540" role="img" aria-labelledby="title desc">
+<title id="title">手部日常修甲保養指南</title><desc id="desc">手部日常保養指南原創插畫，呈現自然指甲與簡潔整理意象。</desc>
+<defs><linearGradient id="wash" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FBF7F1"/><stop offset="1" stop-color="#E2D1C1"/></linearGradient><filter id="soft"><feGaussianBlur stdDeviation="18"/></filter></defs>
+<rect width="720" height="540" rx="28" fill="url(#wash)"/><ellipse cx="552" cy="113" rx="98" ry="50" fill="#D2B47B" opacity=".18" filter="url(#soft)"/><circle cx="143" cy="415" r="84" fill="#A98070" opacity=".16"/>
+<path d="M42 436c88-42 155-39 227-12m213-326c53 20 103 55 145 103" fill="none" stroke="#D2B47B" stroke-width="2" opacity=".55"/>
+<g><path d="M250 367c34-13 66-12 93 6 29 19 39 45 66 53 19 6 29-8 23-23-7-20-31-32-47-46-21-19-25-42-13-55 12-13 30-9 45 5l43 40c29 27 42 58 28 91-17 39-55 67-105 69-53 2-98-17-123-47-23-27-30-64-10-93z" fill="#F6EEE5" stroke="#593C32" stroke-width="4" stroke-linejoin="round"/><path d="M411 307c9-15 21-17 31-6 6 7 8 18 2 27m10-44c12-15 27-12 31 1 2 9-2 18-9 24" fill="none" stroke="#A98070" stroke-width="8" stroke-linecap="round"/></g><path d="M103 131c16-23 31-26 47-7 15-18 31-16 45 4" fill="none" stroke="#A98070" stroke-width="3" stroke-linecap="round" opacity=".65"/>
+<text x="56" y="490" fill="#593C32" font-size="20" font-family="Noto Sans TC, sans-serif" letter-spacing="2">YATING · BEAUTY &amp; CARE</text>
+</svg>

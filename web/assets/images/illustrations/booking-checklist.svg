@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 540" role="img" aria-labelledby="title desc">
+<title id="title">預約美甲足體服務指南</title><desc id="desc">美甲足體預約指南原創插畫，以行事曆卡片和柔和線條呈現事前確認意象。</desc>
+<defs><linearGradient id="wash" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FBF7F1"/><stop offset="1" stop-color="#E7D9CC"/></linearGradient><filter id="soft"><feGaussianBlur stdDeviation="18"/></filter></defs>
+<rect width="720" height="540" rx="28" fill="url(#wash)"/><ellipse cx="552" cy="113" rx="98" ry="50" fill="#C3A18C" opacity=".18" filter="url(#soft)"/><circle cx="143" cy="415" r="84" fill="#B68D54" opacity=".16"/>
+<path d="M42 436c88-42 155-39 227-12m213-326c53 20 103 55 145 103" fill="none" stroke="#C3A18C" stroke-width="2" opacity=".55"/>
+<g><path d="M255 224c24-49 91-77 151-63 49 12 82 56 81 109-2 61-50 113-108 114-69 1-130-46-136-110-2-19 2-36 12-50z" fill="#F7F0E8" stroke="#593C32" stroke-width="4"/><path d="M278 299c39-27 105-31 156-9m-126 48c27-12 62-13 93-3" fill="none" stroke="#B68D54" stroke-width="8" stroke-linecap="round"/><circle cx="309" cy="253" r="14" fill="#C3A18C"/><circle cx="426" cy="247" r="11" fill="#B68D54" opacity=".75"/></g><path d="M103 131c16-23 31-26 47-7 15-18 31-16 45 4" fill="none" stroke="#B68D54" stroke-width="3" stroke-linecap="round" opacity=".65"/>
+<text x="56" y="490" fill="#593C32" font-size="20" font-family="Noto Sans TC, sans-serif" letter-spacing="2">YATING · BEAUTY &amp; CARE</text>
+</svg>
