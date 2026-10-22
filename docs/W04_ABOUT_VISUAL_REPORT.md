@@ -50,3 +50,10 @@
 檢查後發現 `.w01_builder.py` 尚保留 About 頁 SVG 舊映射。本輪已將 About 圖片、服務卡映射、標題裝飾與專屬 CSS 同步至本機產生器；建立 `.w01_builder.py.w04.bak` 作為回復副本，沒有執行產生器。此產生器在 Git 中遭既有 `.gitignore` 排除，因此網站部署仍由 `web/` 靜態成品完成。
 
 待後續：W01 圖片規劃中仍有服務文章主圖待製作；不影響 W04 品牌介紹頁上線。
+
+## FIX01｜刮痧服務卡補圖（2026-10-22）
+
+- 將 /about/ 第四張「傳統刮痧放鬆服務」由 gua-sha-relaxation.svg 更換為 06-about-our-services-gua-sha.webp（1200×900）。
+- 原始來源 web/06-about-our-services-gua-sha.jpg 保留；WebP ALT 清楚標示為非店家實拍的 AI 情境示意。
+- .w01_builder.py 的 About 圖片設定已同步。
+- 正式部署及線上驗證以 GitHub Actions 後續結果為準。

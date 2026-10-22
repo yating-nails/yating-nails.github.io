@@ -62,3 +62,9 @@
 - W01 首次正式網站 commit：03deb7ae9890d2b52542f581f844686cf651d2ea；GitHub Pages Actions Run #3 成功。
 - W01 驗收包含 22 頁 sitemap HTTP 200、逐頁 metadata/JSON-LD 檢查及桌機、平板、手機 RWD。
 - W01 當時記錄的 21 張寫實圖片待補數量已由 W02 更新為目前尚欠 12 張。
+
+## W04-FIX01｜品牌介紹頁刮痧卡圖片修復
+
+- 2026-10-22：將 /about/ 的刮痧卡由 SVG 換成 AI 生成的 1200×900 WebP，來源為 web/06-about-our-services-gua-sha.jpg，成品為 web/assets/images/photos/06-about-our-services-gua-sha.webp。
+- 僅涉及一張卡片；已同步本機 .w01_builder.py 的 About 圖片映射，避免下一次重建退回舊 SVG。
+- 是否正式部署及 Actions 結果以後續驗證紀錄為準。

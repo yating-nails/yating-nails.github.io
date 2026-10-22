@@ -72,3 +72,5 @@ WebP 合計 506,846 bytes；九張原始 JPG 合計 1,582,575 bytes。九張圖�
 
 - 原創裝飾檔：`web/assets/brand/about-title-ornament.svg`；空 ALT 並設為裝飾性隱藏，不增加螢幕閱讀器噪音。
 - W04 詳細圖片 ALT、連結映射、正式部署及三種螢幕驗收見 `docs/W04_ABOUT_VISUAL_REPORT.md`。
+
+- W04-FIX01：web/06-about-our-services-gua-sha.jpg（來源）、web/assets/images/photos/06-about-our-services-gua-sha.webp（About 刮痧服務卡展示用，AI 情境示意，非店家實拍）。
