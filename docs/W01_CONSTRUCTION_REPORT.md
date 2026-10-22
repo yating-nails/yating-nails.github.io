@@ -36,14 +36,15 @@
 - 13 篇服務文章正文各約 648–747 字元；內部連結及本地圖片均指向實際存在檔案；24 個 SVG 全部可解析。
 - sitemap 含 22 個實際頁面；robots 允許爬取並指向 sitemap；404 頁有 noindex。本地 HTTP 對首頁、主要分類／服務頁、價目、聯絡、sitemap、robots、logo、favicon、manifest、OG 與 404 檔案回應均為 200。
 - 全站禁止宣稱字詞掃描未發現違規招攬用語。正文／底色對比高；LINE 綠底白字已調整至約 5.4:1。
-- 手機頁已實際核對電話連結、兩個 Google Maps 導航入口、LINE 固定按鈕及拔罐服務內容。正式站部署後再做 HTTP、主要頁及 Actions 驗收。
+- 手機頁已實際核對電話連結、兩個 Google Maps 導航入口、LINE 固定按鈕及拔罐服務內容。正式站已驗收：22 個 sitemap 頁面均 HTTP 200；官方 Actions 部署完成。另檢查 375px 手機聯絡頁的 LINE 浮動鈕，縮小後重新部署，避免壓住聯絡標題。
 
 ## GitHub Pages 部署
 
 - 目標 Repository：`https://github.com/yating-nails/yating-nails.github.io`
 - 部署方式：GitHub Actions 從 `web/` 上傳 Pages artifact；工作流程可由 main 更新觸發。
 - 工作流程：`.github/workflows/pages.yml`，最小 Pages 權限，發佈 artifact 僅取 `web/`。
-- 部署狀態、Commit SHA、Actions 執行結果與正式站 HTTP 驗證於推送後補入。
+- 已部署網站 commit：03deb7ae9890d2b52542f581f844686cf651d2ea。
+- 最新 workflow run #3（39724302226）由 yating-nails 執行成功，18 秒；正式站與主要頁檢查結果已完成。
 
 ## 圖片狀態與改善項目
 
@@ -51,3 +52,17 @@
 - 圖片逐張需求、提示詞、ALT、尺寸及路徑：`docs/YATING_IMAGE_PRODUCTION_PLAN.md`。
 - 待補事項：取得適當授權後製作 2 張 Hero、2 張品牌氛圍、13 張服務主圖、4 張手足保養細節圖，轉 WebP 並人工驗證裁切及授權。
 - 待確認價格：單色光療手部與足部現行價格。
+
+
+## 部署狀態更新（2026-10-22）
+
+- 狀態：已部署並驗證。
+- 網址：https://yating-nails.github.io/；來源 Repository：yating-nails/yating-nails.github.io；Pages 使用 GitHub Actions 從 web/ artifact 發布。
+- 最新網站發布 commit：03deb7ae9890d2b52542f581f844686cf651d2ea。
+- 最新部署 Actions Run #3：39724302226，commit 03deb7a，actor yating-nails，Success，18 秒。
+- 22/22 正式 sitemap 網址 HTTP 200；22/22 頁有獨立 Title、Description、H1、Canonical、OG、Twitter、JSON-LD，無重複 Title/Description，Title 全在 40–45 字元，JSON-LD 可解析。
+- 正式 robots、sitemap、Logo、favicon、manifest、OG、CSS/JS、原創插畫 HTTP 200；未知網址回傳 404，自訂頁含 noindex。
+- 手機電話、LINE 與 Google Maps 連結 href 正確；正式 375px 手機畫面與桌機畫面已視覺檢查。1440、768、390 寬度的本機 RWD 驗收結果如上。
+- 法規敏感用語檢查無治療招攬文字，未使用虛構評價、資格或療效承諾。舊版單色光療 700/800 元價格仍待確認。
+- 圖片狀態：24 張原創 SVG；寫實 AI/攝影圖製作 0 張，尚欠 21 張。素材權利未確認的店家照片未公開。補圖需求、提示詞與 ALT 見 docs/YATING_IMAGE_PRODUCTION_PLAN.md。
+
