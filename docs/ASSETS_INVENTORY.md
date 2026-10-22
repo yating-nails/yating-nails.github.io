@@ -44,3 +44,15 @@ WebP 合計 506,846 bytes；九張原始 JPG 合計 1,582,575 bytes。九張圖�
 - W01 既有商家照片的拍攝者授權／出鏡者同意無法由檔案確認，因此維持不公開。
 - 21 張初始情境圖規劃中，W02 完成首頁 9 張，尚有 12 張待後續製作；規劃清單見 docs/YATING_IMAGE_PRODUCTION_PLAN.md。
 - .w01_builder.py 是本機原始產生器，首頁照片映射與手機卡片規則已同步；既有 .gitignore 排除此檔於 Git 版本控制之外。
+
+
+## W03 服務總覽圖片與頁尾紋飾
+
+- 14 張服務總覽圖片已正式部署；所有原始 JPG 保留於 `web/` 根目錄。
+- W02 WebP 重用 6 張：`03-service-hand-nail-care.webp`、`04-service-toe-nail-trim.webp`、`05-service-foot-skin-care.webp`、`06-service-nail-buffing.webp`、`07-service-single-color-gel.webp`、`08-service-gel-removal.webp`。
+- W03 新轉 WebP 8 張，路徑均在 `web/assets/images/photos/`：`01-services-hero.webp`、`08-service-body-massage.webp`、`09-service-foot-massage-shoulder.webp`、`10-service-gua-sha-relaxation.webp`、`11-service-cupping-relaxation.webp`、`12-service-body-exfoliation.webp`、`13-service-facial-cleansing-mask.webp`、`14-service-face-hair-brow.webp`。主圖 1600×900，其餘七張 1200×900；合計 762,830 bytes。
+- 六張使用者提供的 W03 JPG（檔名 02 至 07）因版位重用 W02 WebP，未另行轉檔，但原始檔仍保留。
+- 第 11 張是一般背部放鬆情境，不是拔罐操作；第 12 張為局部肌膚保養示意；第 13 張為美容保養用品氛圍。所有照片均未標為店內實景、顧客成果或療效對比。
+- 新增原創 Footer 線紋 `web/assets/brand/footer-ornament.svg`；CSS 與 JS 版本分別為 `w03-polish` 與 `w03-navigation`。
+- `.w01_builder.py` 未修改或執行；未來重建網站前，需同步此輪映射與共用視覺。
+- 詳細 14 張對應、ALT、尺寸、檔案大小、發布及 RWD 驗收見 `docs/W03_SERVICES_VISUAL_REPORT.md`。

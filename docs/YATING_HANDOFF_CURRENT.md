@@ -1,5 +1,18 @@
 # 雅婷美甲足體｜最新交接狀態
 
+## W03｜服務總覽圖片、全站導覽與 Footer
+
+更新日期：2026-10-22
+
+- 狀態：已部署並驗證。正式站：https://yating-nails.github.io/；服務總覽：https://yating-nails.github.io/services/。
+- GitHub Repository：yating-nails/yating-nails.github.io。
+- 部署 commit：`0c9051dd997765037615fbe4af4c0a7ae769cffe`。GitHub Actions Run #5 成功：https://github.com/yating-nails/yating-nails.github.io/actions/runs/39734065449。
+- 服務總覽 14/14 圖片上線：六張重用 W02 WebP，另轉 8 張新 WebP；所有 14 張上傳 JPG 均可解碼並保留於 `web/`。圖片清單、ALT 與尺寸見 docs/W03_SERVICES_VISUAL_REPORT.md。
+- 22 個 Sitemap 網址均 HTTP 200；正式站 14 張圖片、CSS、JS、Footer 紋飾與首頁皆 HTTP 200，14 張圖片瀏覽器解碼成功。
+- 全站 22 個頁面 Header／Footer 視覺已套用。1440／768／390 實際排版均無水平溢出；390 手機漢堡選單與 Escape 收合正常。
+- 首頁 W02 九張照片、價格、電話、LINE、Logo/favicon、13 篇服務文章正文與 SEO/GEO metadata 保持原樣。
+- 待後續：13 篇服務文章本身的圖片版位未改；`.w01_builder.py` 未修改，未來重建前需同步 W03 映射與共用視覺設定。
+
 更新日期：2026-10-22
 
 ## W02｜首頁九張圖片替換與正式部署
